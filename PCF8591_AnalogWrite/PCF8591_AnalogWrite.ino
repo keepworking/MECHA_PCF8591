@@ -9,7 +9,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   for(int i = 110; i < 150;i++){
     pcf.analogWrite(i);
     delay(10);
